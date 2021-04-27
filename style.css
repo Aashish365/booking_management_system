@@ -17,6 +17,7 @@ body {
 	position: fixed;
 	background-color: #e6e6ea;
 	z-index: 9999999999999;
+	box-shadow: 0rem 10px rgba(0, 0, 0, 0.041);
 }
 .navbar {
 	transition: all 0.5s;
@@ -98,10 +99,6 @@ body {
 	transition: all 0.3s;
 }
 
-.navElement:hover {
-	transform: scale(1.1);
-}
-
 .button-book {
 	background-image: linear-gradient(to right, #ff512f, #dd2476);
 	padding: 0.5rem;
@@ -109,9 +106,11 @@ body {
 	box-sizing: border-box;
 }
 
+
 .button {
 	transition: all 0.3s;
 }
+
 .button:active {
 	transform: scale(0.95);
 }
